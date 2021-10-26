@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Tiempo de proyecto musica" company="Escuela tecnica 29 D.E 6 reconquista de Buenos Aires" webLink="aun no hay" view-date="2021-10-29" view-index="0" gantt-divider-location="300" resource-divider-location="300" version="3.0.3005" locale="es_AR">
+    <description>
+        <![CDATA[proceso]]>
+    </description>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Name" width="167" order="0"/>
+        <field id="tpd4" name="Begin date" width="65" order="1"/>
+        <field id="tpd5" name="End date" width="64" order="2"/>
+        <timeline>
+            <![CDATA[20,36,27,41,4,13]]>
+        </timeline>
+        <option id="color.recent">
+            <![CDATA[#ff0000 #ff6600 #00cc00 #3333ff #cccc00 #33ff33 #0033ff #66ff66 #ff3333 #00ff00]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="2021" month="10" date="12" type="WORKING_DAY" color="#99ffff">
+            <![CDATA[trabajar en el proyecto]]>
+        </date>
+        <date year="2021" month="10" date="19" type="WORKING_DAY" color="#99ffff">
+            <![CDATA[investigacion del proyecto]]>
+        </date>
+        <date year="2021" month="10" date="26" type="WORKING_DAY" color="#66ffff">
+            <![CDATA[crear linea de tiempo]]>
+        </date>
+        <date year="2021" month="11" date="2" type="WORKING_DAY" color="#66ffff">
+            <![CDATA[se trabaja la pagina web]]>
+        </date>
+        <date year="2021" month="11" date="9" type="WORKING_DAY" color="#ffff00">
+            <![CDATA[tiene que estar finalizado]]>
+        </date>
+        <date year="2021" month="11" date="16" type="WORKING_DAY" color="#00ff00">
+            <![CDATA[trabajo finalizado]]>
+        </date>
+        <date year="2021" month="11" date="23" type="WORKING_DAY" color="#ff0000">
+            <![CDATA[trabajo atrasado]]>
+        </date>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Elegir un proyecto" color="#66ff66" shape="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" meeting="false" start="2021-10-12" duration="1" complete="1" thirdDate="2021-10-12" thirdDate-constraint="0" priority="0" expand="true">
+            <notes>
+                <![CDATA[este dia tendria que ser un dia donde tendriamos que pensar sobre el proyecto que piensa plantear cada alumno]]>
+            </notes>
+        </task>
+        <task id="4" name="Dias de turno normal" color="#3333ff" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2021-10-13" duration="4" complete="1" thirdDate="2021-10-13" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[estos dias los alumnos deverian enfocarce en sus materias y pensar no tanto en el proyecto porque queda mucho tiempo]]>
+            </notes>
+        </task>
+        <task id="12" name="Explicacion sobre php de la profesora" color="#33ff33" meeting="false" start="2021-10-19" duration="1" complete="1" thirdDate="2021-10-19" thirdDate-constraint="0" priority="4" expand="true">
+            <notes>
+                <![CDATA[La profesora explico sobre como crear una pagina web en php lo cual es bastante importante para realizar el proyecto (tmb grabo la clase por meet para ver los videos dps por youtube)]]>
+            </notes>
+        </task>
+        <task id="13" name="Dias de turno normal" color="#3333ff" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2021-10-20" duration="4" complete="0" thirdDate="2021-10-20" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[los restos de esta semana son dias de turno normal]]>
+            </notes>
+        </task>
+        <task id="19" name="Hacer una linea de tiempo con ganttproct" color="#33ff33" meeting="false" start="2021-10-26" duration="1" complete="1" thirdDate="2021-10-26" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[Hacer una linea de tiempo para ordenar las fechas restantes que quedan para finalizar el proyecto que el alumno eligio
+]]>
+            </notes>
+        </task>
+        <task id="20" name="Dias de turno normal" color="#3333ff" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2021-10-27" duration="4" complete="0" thirdDate="2021-10-27" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[turnos de clase normal donde se deben acercar las fechas de examenes]]>
+            </notes>
+        </task>
+        <task id="25" name="Hacer el proyecto" color="#33ff33" meeting="false" start="2021-11-02" duration="1" complete="1" thirdDate="2021-11-02" thirdDate-constraint="0" priority="2" expand="true">
+            <notes>
+                <![CDATA[Una vez aprendido los conocimientos de php este dia los alumnos deveran empezar a programar en php lo que eligieron]]>
+            </notes>
+        </task>
+        <task id="27" name="Dias de examenes o trabajos practicos" color="#3333ff" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2021-11-03" duration="4" complete="0" thirdDate="2021-11-03" thirdDate-constraint="0" priority="2" expand="true">
+            <notes>
+                <![CDATA[Se acerca final de bimestre y los alumnos deben realizar trabajos practicos para subir la nota de lo contrario podrian reprobar, los alumnos con notas estables no deberian preocuparse por eso]]>
+            </notes>
+        </task>
+        <task id="31" name="Ultimo dia del proyecto" color="#cccc00" shape="0,1,0,1,0,0,1,0,0,1,0,1,1,0,0,0" meeting="false" start="2021-11-09" duration="1" complete="1" thirdDate="2021-11-09" thirdDate-constraint="0" priority="4" expand="true">
+            <notes>
+                <![CDATA[Este es el ultimo dia del proyecto para este momento el proyecto deberia estar en sus fases finales y apunto de ser finalizado para ser entregado la proxima semana y aprobar la materia]]>
+            </notes>
+        </task>
+        <task id="36" name="Ultima semana de clase" color="#3333ff" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2021-11-10" duration="4" complete="0" thirdDate="2021-11-10" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[esta semana los alumnos ya sabran quienes tienen que seguir viniendo y quienes ya no tienen que venir mas ]]>
+            </notes>
+        </task>
+        <task id="38" name="Proyecto finalizado y entregado" color="#00cc00" shape="0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0" meeting="false" start="2021-11-16" duration="1" complete="0" thirdDate="2021-11-16" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[¡Felicidades terminaste el proyecto!  :D]]>
+            </notes>
+        </task>
+        <task id="41" name="Semana de repaso para diciembre" color="#ff6600" shape="1,1,1,0,1,1,0,0,1,0,0,0,0,0,0,0" meeting="false" start="2021-11-17" duration="4" complete="0" thirdDate="2021-11-17" thirdDate-constraint="0" priority="2" expand="true">
+            <notes>
+                <![CDATA[una semana en la que se repasan los temas para diciembre
+]]>
+            </notes>
+        </task>
+        <task id="46" name="Proyecto atrasado" color="#ff0000" shape="0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0" meeting="false" start="2021-11-23" duration="1" complete="0" thirdDate="2021-11-23" thirdDate-constraint="0" expand="true">
+            <notes>
+                <![CDATA[este dia tienes que entregar tu proyecto si o si. 
+Si no se entrega el proyecto las consecuencias son ir a diciembre]]>
+            </notes>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
